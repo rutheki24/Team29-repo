@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        JAVA_HOME = "/usr/lib/jvm/java-11-openjdk"
-        MAVEN_HOME = "/opt/maven"
+        JAVA_HOME = "/usr/lib/jvm/java-17-amazon-corretto.x86_64"
+        MAVEN_HOME = "/usr/share/maven"
     }
 
     stages {
